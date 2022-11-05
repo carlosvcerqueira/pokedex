@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #F00000, #DC281E, #000000); 
+}
+
+.content {
+    height: 100%;
+    width: 100vw;
+    padding: 1rem;
+    color: #f6f8fc;
+    background-color: #9e0f0f;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
